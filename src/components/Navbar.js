@@ -30,7 +30,7 @@ function Navbar() {
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
-          <ul className={click ? "navbar-menu active" : "navbar-menu"}>
+          <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <Link className="nav-links" to="/" onClick={closeMobileMenu}>
                 Home
